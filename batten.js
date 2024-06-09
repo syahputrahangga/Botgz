@@ -1395,7 +1395,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  }),
  header: proto.Message.InteractiveMessage.Header.create({
  title: ``,
- subtitle: "RiooXdzz",
+ subtitle: "HangzGabut",
  hasMediaAttachment: true,...(await prepareWAMessageMedia({ image: { url: "https://telegra.ph/file/233778ff2267e6455cf61.jpg" } }, { upload: rioo.waUploadToServer }))
  }),
  nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
@@ -1750,7 +1750,7 @@ let mek = generateWAMessageFromContent(m.chat, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363192092636321@newsletter',
-                  newsletterName: '© RiooXdzz',
+                  newsletterName: '© HangzGabut',
                   serverMessageId: 143
                 }
               }
@@ -1848,7 +1848,7 @@ let tsrh = generateWAMessageFromContent(m.chat, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363192092636321@newsletter',
-                  newsletterName: '© RiooXdzz',
+                  newsletterName: '© HangzGabut',
                   serverMessageId: 143
                 }
               }
@@ -1963,7 +1963,7 @@ let tol = generateWAMessageFromContent(m.chat, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363192092636321@newsletter',
-                  newsletterName: '© RiooXdzz',
+                  newsletterName: '© HangzGabut',
                   serverMessageId: 143
                 }
               }
@@ -2055,7 +2055,7 @@ let idiot = generateWAMessageFromContent(m.chat, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363192092636321@newsletter',
-                  newsletterName: '© RiooXdzz',
+                  newsletterName: '© HangzGabut',
                   serverMessageId: 143
                 }
               }
@@ -2232,7 +2232,7 @@ let hdeh = generateWAMessageFromContent(m.chat, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363192092636321@newsletter',
-                  newsletterName: '© RiooXdzz',
+                  newsletterName: '© HangzGabut',
                   serverMessageId: 143
                 }
               }
@@ -2364,7 +2364,7 @@ let pokek = generateWAMessageFromContent(m.chat, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363192092636321@newsletter',
-                  newsletterName: '© RiooXdzz',
+                  newsletterName: '© HangzGabut',
                   serverMessageId: 143
                 }
               }
@@ -2489,7 +2489,7 @@ let res = await fetchJson(`https://api.neoxr.eu/api/topup-gopay?number=${encodeU
 if (res.status && res.data) {
 let hasil = res.data
 let buffer = Buffer.from(hasil.qr_image, 'base64')
-await rioo.sendMessage(m.chat, { image: buffer, caption: `Id_Transaction: ${hasil.id}\nNumber: ${hasil.number}\nTotal_Amount: ${hasil.price_format}\nExpired At: ${hasil.expired_at}\n> • © RiooXdzz` }, { quoted: fkontak2 })
+await rioo.sendMessage(m.chat, { image: buffer, caption: `Id_Transaction: ${hasil.id}\nNumber: ${hasil.number}\nTotal_Amount: ${hasil.price_format}\nExpired At: ${hasil.expired_at}\n> • © HangzGabut` }, { quoted: fkontak2 })
 }
 } catch (err) {
 console.log(err)
@@ -2506,7 +2506,7 @@ let res = await fetchJson(`https://api.neoxr.eu/api/topup-ovo?number=${encodeURI
 if (res.status && res.data) {
 let hasil = res.data
 let buffer = Buffer.from(hasil.qr_image, 'base64')
-await rioo.sendMessage(m.chat, { image: buffer, caption: `Id_Transaction: ${hasil.id}\nNumber: ${hasil.number}\nTotal_Amount: ${hasil.price_format}\nExpired At: ${hasil.expired_at}\n> • © RiooXdzz` }, { quoted: fkontak2 })
+await rioo.sendMessage(m.chat, { image: buffer, caption: `Id_Transaction: ${hasil.id}\nNumber: ${hasil.number}\nTotal_Amount: ${hasil.price_format}\nExpired At: ${hasil.expired_at}\n> • © HangzGabut` }, { quoted: fkontak2 })
 }
 } catch (err) {
 console.log(err)
@@ -2523,7 +2523,7 @@ let res = await fetchJson(`https://api.neoxr.eu/api/topup-dana?number=${encodeUR
 if (res.status && res.data) {
 let hasil = res.data
 let buffer = Buffer.from(hasil.qr_image, 'base64')
-await rioo.sendMessage(m.chat, { image: buffer, caption: `Id_Transaction: ${hasil.id}\nNumber: ${hasil.number}\nTotal_Amount: ${hasil.price_format}\nExpired At: ${hasil.expired_at}\n> • © RiooXdzz` }, { quoted: fkontak2 })
+await rioo.sendMessage(m.chat, { image: buffer, caption: `Id_Transaction: ${hasil.id}\nNumber: ${hasil.number}\nTotal_Amount: ${hasil.price_format}\nExpired At: ${hasil.expired_at}\n> • © HangzGabut` }, { quoted: fkontak2 })
 }
 } catch (err) {
 console.log(err)
@@ -2815,7 +2815,7 @@ case 'text2img': {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterName: 'RiooXdzz',
+              newsletterName: 'HangzGabut',
               newsletterJid: '120363192092636321@newsletter',
               serverMessageId: 143
             }
@@ -2928,7 +2928,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  mentionedJid: [m.sender], 
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
- newsletterName: 'RiooXdzz',
+ newsletterName: 'HangzGabut',
  newsletterJid: '120363192092636321@newsletter',
  serverMessageId: 143
 },
@@ -2942,7 +2942,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  }),
  header: proto.Message.InteractiveMessage.Header.create({
  title: `👋 ʜɪ ᴋᴀᴋ${m.sender.split('@')[0]}\n`,
- subtitle: "riooxdzz",
+ subtitle: "HangzGabut",
  hasMediaAttachment: true,...(await prepareWAMessageMedia({ image: { url: "https://telegra.ph/file/3d3fc7209314ffacb2277.jpg" } }, { upload: rioo.waUploadToServer }))
  }),
  nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
@@ -3017,7 +3017,7 @@ let msg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterName: 'RiooXdzz',
+                  newsletterName: 'HangzGabut',
 				  newsletterJid: '120363192092636321@newsletter',
                   serverMessageId: 143
                 }
@@ -3605,7 +3605,7 @@ if (!isOwner) return reply(mess.owner)
 if (!q) return reply('*Masukan nama case yang akan di hapus*')
 
 dellCase('./batten.js', q)
-reply('*Dellcase Successfully*\n\n© Dellcase By © RiooXdzz')
+reply('*Dellcase Successfully*\n\n© Dellcase By © HangzGabut')
 }
 break
 case 'addcase': {
@@ -8363,7 +8363,7 @@ case 'play': case 'song': {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: 'RiooXdzz',
+                    newsletterName: 'HangzGabut',
                     newsletterJid: '120363192092636321@newsletter',
                   serverMessageId: 143
                 }
